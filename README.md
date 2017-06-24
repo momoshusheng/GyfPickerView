@@ -3,4 +3,4 @@
 
 
 
-![image](https://github.com/momoshusheng/GyfPickerView/commit/5d676769459870fe286ed742d6451a2ced741f28.gif)
+![image](https://github.com/momoshusheng/GyfPickerView/screenHost/5d676769459870fe286ed742d6451a2ced741f28.gif)
