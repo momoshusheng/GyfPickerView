@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/text_result"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:textColor="#f24949"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <com.example.gyfpickerview.GyfPickerView
+        android:layout_marginLeft="20dp"
+        app:gyfTextColor="#f24949"
+        app:gyfMaxShowNum="5"
+        android:id="@+id/pickerview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textSize="14sp"
+        android:textColor="#f24949"
+        android:text="月"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.example.gyfpickerview.GyfPickerView
+        android:layout_marginLeft="20dp"
+        app:gyfTextColor="#f24949"
+        app:gyfMaxShowNum="5"
+        android:id="@+id/pickerview_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textSize="14sp"
+        android:textColor="#f24949"
+        android:text="日"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+</LinearLayout>

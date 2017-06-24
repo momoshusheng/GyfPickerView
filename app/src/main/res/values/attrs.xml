@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GyfPickerView">
+        <attr name="gyfTextSize" format="dimension"></attr>
+        <attr name="gyfTextColor" format="color"></attr>
+        <attr name="gyfTextPading" format="dimension"></attr>
+        <attr name="gfyTextMaxScale" format="float"></attr>
+        <attr name="gyfTextMinAlpha" format="float"></attr>
+        <attr name="gyfRecycleMode" format="boolean"></attr>
+        <attr name="gyfMaxShowNum" format="integer"></attr>
+    </declare-styleable>
+
+</resources>
